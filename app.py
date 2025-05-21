@@ -1,3 +1,7 @@
+import os
+os.environ['MPLCONFIGDIR'] = '/tmp'
+
+
 import streamlit as st
 import tensorflow as tf
 import numpy as np
